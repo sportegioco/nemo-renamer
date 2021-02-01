@@ -1,6 +1,10 @@
+This script is a fork of https://github.com/trhura/nautilus-renamer written by Thura Hlaing https://github.com/trhura
+I just made some minor changes and renamed nautilus to nemo so that the nemo file manager also has a bulk renamer
+I'm not a programmer, so all thanks go to the original author
+
 About
 ======
-Renamer is a small script for batch renaming files in nautilus.
+Renamer is a small script for batch renaming files in nemo.
 
 Installation
 ============
@@ -9,7 +13,7 @@ See the 'INSTALL' file.
 How to report bugs
 ==================
 Report here.
-    https://bugs.launchpad.net/nautilus-renamer
+    https://bugs.launchpad.net/nemo-renamer
 
 Available Patterns
 ==================
