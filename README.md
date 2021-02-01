@@ -15,11 +15,11 @@ See the 'INSTALL' file.
 How to report bugs
 ==================
 Report here.
-    https://bugs.launchpad.net/nemo-renamer
+    https://github.com/sportegioco/nemo-renamer/issues
 
 Available Patterns
 ==================
-
+<pre>
 This pattern, /number|length(+start)/, is not recursive meaning does not work for sub-folders/files ...
 /number|3/	    for 001  , 002  , 003 ...
 /number|5/	    for 00001, 00002, 00003 , ...
@@ -61,3 +61,4 @@ When they are negative, they are manipulated backwards (from end).
 "123abc.jpg" => /name|-3:-3/ => "123"
 "123abc.jpg" => /name|-3:100/ => "abc"
 "123abc.jpg" => /name|-3:-100/ => "123"
+</pre>
