@@ -1,16 +1,16 @@
-Source: nautilus-renamer
+Source: nemo-renamer
 Section: gnome
 Priority: optional
 Maintainer: Thura Hlaing <trhura@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: https://launchpad.net/nautilus-renamer
+Homepage: https://launchpad.net/nemo-renamer
 
-Package: nautilus-renamer
+Package: nemo-renamer
 Architecture: all
 Depends: python3, python-gobject, gir1.2-notify-0.7, gir1.2-gtk-3.0, python3-roman
-Description: Batch rename files in nautilus
- Renamer is a small script for batch renaming files in nautilus.
+Description: Batch rename files in nemo
+ Renamer is a small script for batch renaming files in nemo.
  .
  After installation, 'F2' or 'rename' in context menu will bring up
- nautilus-renamer, if you have selected more than one file.
+ nemo-renamer, if you have selected more than one file.

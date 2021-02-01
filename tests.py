@@ -4,7 +4,7 @@
 import imp
 import re
 import unittest
-renamer = imp.load_source ('renamer', 'nautilus-renamer.py')
+renamer = imp.load_source ('renamer', 'nemo-renamer.py')
 
 class TestSequenceFunctions(unittest.TestCase):
 

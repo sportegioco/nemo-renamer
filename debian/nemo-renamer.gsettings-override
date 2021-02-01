@@ -1,0 +1,2 @@
+[org.gnome.nemo.preferences]
+bulk-rename-tool=b'/usr/share/nemo-renamer/nemo-renamer.py'

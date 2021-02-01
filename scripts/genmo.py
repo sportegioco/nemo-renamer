@@ -21,7 +21,7 @@ def gen_mo_files (podir, localedir):
 				os.makedirs (modir)
 
 			popath = os.path.join (podir, pofile)
-			mopath = os.path.join (modir, 'nautilus-renamer.mo')
+			mopath = os.path.join (modir, 'nemo-renamer.mo')
 
 			print "Creating %s ..." % mopath 
 			subprocess.call(['msgfmt', '-o', mopath, popath])

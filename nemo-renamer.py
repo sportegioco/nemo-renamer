@@ -30,10 +30,6 @@ import string
 import difflib
 import urllib.parse
 
-import gi
-gi.require_version('Gtk', '3.0')
-gi.require_version('Notify', '0.7')
-
 from gi.repository import Gtk
 from gi.repository import Gio
 from gi.repository import Pango
@@ -946,7 +942,7 @@ class RenameApplication(Gtk.Application):
                 if not sep == '':
                     lst = [ l for l in name.split(sep)]
                 for i in range(1, len(lst)):
-                    if lst[i] != '':
+                    if lst[i] is not '':
                         lst[i] = lst[i][0].upper() + lst[i][1:]
                 name = sep.join (lst)
 

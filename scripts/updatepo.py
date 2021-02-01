@@ -3,11 +3,11 @@ import os
 import re
 import subprocess
 
-outfile = 'po/nautilus-renamer.pot'
+outfile = 'po/nemo-renamer.pot'
 pattern = re.compile('^([a-zA-Z_]+)\.po$')
 
-files = ['nautilus-renamer.py', 'nautilus-extension/nautilus-renamer.py']
-common_args = ['-o', outfile, '--copyright-holder=Thura Hlaing <trhura@gmail.com>', '--package-name=nautilus-renamer',
+files = ['nemo-renamer.py', 'nemo-extension/nemo-renamer.py']
+common_args = ['-o', outfile, '--copyright-holder=Thura Hlaing <trhura@gmail.com>', '--package-name=nemo-renamer',
 	'--package-version=2.3', '--msgid-bugs-address=trhura@gmail.com']
 
 print 'Updating translation template'
