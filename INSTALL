@@ -10,10 +10,11 @@ Install
 To install Renamer only for current user, run
     make localinstall
 
-Deb packages for ubuntu can also be downloaded in lauchpad project page.
-
-Open nemo and set preferences to mass rename files to:
+Open nemo and set Edit, Preferences, Behavior, "Command to be invoked to rename multiple elements"  to mass rename files to:
 /home/<USER>/.local/share/nemo-renamer/Renamer
+
+...or run the following command which matches nemo-renamer to nemo for the mass rename 
+dconf write /org/nemo/preferences/bulk-rename-tool "b'/home/$USER/.local/share/nemo-renamer/Renamer'"
 
 NOTE: After installation, 'F2' or 'rename' in context menu will bring up nemo-renamer,
 if you have selected more than one file.
